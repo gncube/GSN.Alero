@@ -96,7 +96,7 @@
     <Content Include="assets\css\bootstrap-theme.min.css" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\custom.css" />
-    <Content Include="assets\css\dnnfix.css" />
+    <None Include="assets\css\dnnfix.css.bak" />
     <Content Include="assets\css\headers\header-alero.css" />
     <Content Include="assets\css\jquery.smartmenus.bootstrap.css" />
     <Content Include="assets\css\login.css" />
