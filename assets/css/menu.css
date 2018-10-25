@@ -1,0 +1,229 @@
+﻿
+
+.dropdown-menu .dropdown > a:hover, .dropdown-menu .dropdown > a:focus {
+    /*color: #000;*/
+}
+
+.navbar-nav.sm-collapsible .caret, .navbar-nav.sm-collapsible ul .caret {
+    color: #15a6dd;
+    background: #fff;
+    text-shadow: none;
+}
+
+
+
+
+/* Tertiary level */
+@media (min-width: 768px) {
+    .nav li ul.dropdown-menu li ul.dropdown-menu {
+        top: 3px;
+        left: 100%;
+        margin-top: -5px;
+        margin-left: 0;
+        /*position: absolute;
+        top: 3px;
+        /*left: 190px;*/
+        /*left: 100%;*/
+        /*border-top: solid 2px #009bd5;
+    border-bottom: solid 2px #c0037b;*/
+    }
+
+
+    .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+        /*color: #fff;*/
+        text-decoration: none;
+        outline: 0;
+        /*background-color: #009bd5 !important;*/
+    }
+
+    /*This line gives the max width on the dropdown menu*/
+    .dropdown-menu {
+        /*min-width: 200px !important;*/
+    }
+}
+
+
+*-------------------------------------------------- [4. Header - Submenu] ----------------------------------------------------*/
+/*Dropdown Submenu for BS3
+------------------------------------*/
+.header .dropdown-submenu {
+    /*position: relative;*/
+}
+
+
+
+.header .dropdown-submenu > .dropdown-menu {
+    top: 3px;
+    left: 100%;
+    margin-top: -5px;
+    margin-left: 0px;
+}
+
+    /*Submenu comes from LEFT side*/
+    .header .dropdown-submenu > .dropdown-menu.submenu-left {
+        left: -100%;
+    }
+
+.header .dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+
+.bg-white {
+    background: #fff !important;
+}
+
+@media (min-width: 992px) {
+
+    .header-fixed-shrink .navbar-nav > li > a, .header-fixed-shrink .navbar-nav > li > a:focus {
+        padding-top: 55px;
+        padding-bottom: 5px;
+        height: 97px !important;
+    }
+
+    .caret {
+        display: none;
+        width: 0;
+        height: 0;
+        margin-left: 2px;
+        vertical-align: middle;
+    }
+
+    /*.header-fixed-shrink .navbar-header.pull-right {
+        background: url(../img/nhs-logo-sm.gif) no-repeat;
+        height: 91px;
+        width: 100px;
+        display: block;
+        background-position: 0 35px;
+        float: right;
+    }*/
+
+    .header .dropdown > a:after {
+        top: 9px;
+        right: 15px;
+        font-size: 14px;
+        content: "\f105";
+        position: absolute;
+        font-weight: bold;
+        display: inline-block;
+        font-family: FontAwesome;
+    }
+
+    .header .dropdown > a:after {
+        top: 9px;
+        right: 15px;
+        content: "\f107";
+    }
+}
+
+
+
+@media (max-width: 991px) {
+    .navbar-nav > li > a {
+        line-height: 20px !important;
+    }
+
+    .header .navbar-nav > li a {
+        border-bottom: solid 1px #15A6DD;
+    }
+
+    .header .dropdown-submenu > a:after {
+        content: " ";
+    }
+
+    .header .dropdown-submenu > .dropdown-menu {
+        /*display: block;
+        margin-left: 15px;*/
+    }
+
+    .navbar {
+        position: relative;
+        margin-bottom: 5px;
+        border: 1px solid transparent;
+    }
+
+    .navbar-toggle {
+        position: relative;
+        float: right;
+        margin: 40px 10px 10px 10px;
+        padding: 9px 10px;
+    }
+
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+        max-height: 500px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #fff;
+    }
+
+    body#Body {
+        padding-top: 0 !important;
+    }
+
+    .header .dropdown-submenu.pull-left {
+        float: none;
+    }
+
+        .header .dropdown-submenu.pull-left > .dropdown-menu {
+            left: -100%;
+            margin-left: 10px;
+        }
+
+    /*Dropdow Mmenu Icons (Font Awesome)*/
+    .header .dropdown-menu li [class^="fa-"],
+    .header .dropdown-menu li [class*=" fa-"] {
+        left: -3px;
+        width: 1.25em;
+        margin-right: 1px;
+        position: relative;
+        text-align: center;
+        display: inline-block;
+    }
+
+        .header .dropdown-menu li [class^="fa-"].fa-lg,
+        .header .dropdown-menu li [class*=" fa-"].fa-lg {
+            /* increased font size for fa-lg */
+            width: 1.5625em;
+        }
+
+    /*.navbar-header.pull-right {
+        background: url(../img/nhs-logo-sm.gif) no-repeat;
+        height: 91px;
+        width: 100px;
+        display: block;
+        background-position: 0 35px;
+    }*/
+
+    #dnn_dnnLOGO_imgLogo {
+        /*display: none;*/
+    }
+
+    .header-fixed-shrink .navbar-header.pull-right {
+        /*background: url(../img/nhs-logo-sm.gif) no-repeat;
+        height: 91px;
+        width: 100px;
+        display: block;
+        background-position: 0 35px;*/
+    }
+
+    .header-fixed-shrink .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu > li > a:active, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+        color: #fff;
+        background: #15A6DD;
+        margin: 0;
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .header-fixed-shrink .navbar-default .navbar-nav > .open > a {
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+        /*background: red;*/
+        height: 40px !important;
+    }
+}
