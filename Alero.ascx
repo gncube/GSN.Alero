@@ -58,11 +58,6 @@
 
     <div id="contentWrapper-fixed-top">
 
-        <!--=== Slider ===-->
-        <div id="SliderPane" runat="server"></div>
-        <!--/slider-->
-        <!--=== End Slider ===-->
-
         <!-- Intro Section -->
         <div id="ContentPane" class="container" runat="server"></div>
 

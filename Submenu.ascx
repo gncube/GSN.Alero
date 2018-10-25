@@ -58,28 +58,10 @@
 
     <div id="contentWrapper-fixed-top">
 
-        <!--=== Slider ===-->
-        <div id="SliderPane" runat="server"></div>
-        <!--/slider-->
-        <!--=== End Slider ===-->
+        <div id="ContentPane" class="container" runat="server"></div>
 
-        <div class="container">
-            <div id="ContentPane" class="col-md-9" runat="server" />
-            <div id="RightPane" class="col-md-3" runat="server">
-                <div class="margin-bottom-20">
-                    <div>
-                        <dnn:LINKS runat="server" ID="dnnLinks" CssClass="sub-menu-blue" Separator="" Alignment="Vertical" Level="Child" ForceLinks="false" />
-                    </div>
-                </div>
-            </div>
-        </div>
+       <!--#include file="assets/_content-panes.ascx"-->
 
-        <div class="container">
-            <div class="col-md-3" id="LeftPaneNarrow" runat="server" />
-            <div class="col-md-9" id="RightPaneWide" runat="server" />
-        </div>
-
-        <div id="FullPane" runat="server"></div>
     </div>
 
     <!-- Footer Section -->

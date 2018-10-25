@@ -96,12 +96,8 @@
             </div>
         </div>
         
-        <div class="container">
-            <div class="col-md-3" id="LeftPaneNarrow" runat="server" />
-            <div class="col-md-9" id="RightPaneWide" runat="server" />
-        </div>
+       <!--#include file="assets/_content-panes.ascx"-->
 
-        <div id="FullPane" runat="server"></div>
     </div>
     <!-- Footer Section -->
     <!--#include file="assets/footer-v6.ascx"-->
