@@ -37,6 +37,30 @@
             <skinName>GSN.Alero</skinName>
             <basePath />
             <skinFile>
+              <name>Alero Sticky.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Alero Submenu.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Alero.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Left Submenu.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Right Submenu.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Skin.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Slider.ascx</name>
+            </skinFile>
+            <skinFile>
+              <name>Submenu.ascx</name>
+            </skinFile>
+            <skinFile>
               <name>Home.ascx</name>
             </skinFile>
             <skinFile>
@@ -73,6 +97,30 @@
             </containerFile>
             <containerFile>
               <name>Blank.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Cube Portfolio.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>FuelUX.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>H1.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>H2.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>H3.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>H4.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>NoTitle.ascx</name>
+            </containerFile>
+            <containerFile>
+              <name>Parallax Slider.ascx</name>
             </containerFile>
           </containerFiles>
         </component>

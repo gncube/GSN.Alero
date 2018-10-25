@@ -226,6 +226,8 @@
     <Content Include="Edit.doctype.xml" />
     <Content Include="Home.doctype.xml" />
     <Content Include="Index.ascx" />
+    <Content Include="install\GSN.Alero_00.00.01_Install.zip" />
+    <Content Include="install\GSN.Alero_00.00.01_Source.zip" />
     <Content Include="Left Submenu.ascx" />
     <Content Include="PopupSkin.ascx" />
     <Content Include="License.txt" />
