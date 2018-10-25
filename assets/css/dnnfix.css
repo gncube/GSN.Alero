@@ -407,3 +407,9 @@ padding:15px 15px 45px 15px;
 width:279px
 }
 #mdMemberList > li:hover{}
+
+
+
+.EditBarEmptyPane {
+    width: auto !important;
+}
