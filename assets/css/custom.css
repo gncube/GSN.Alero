@@ -290,6 +290,34 @@ a.dnnPrimaryAction {
 }
 
 
-.EditBarEmptyPane {
-    width: auto !important;
+.col-md-12.EditBarEmptyPane {
+    width: 100% !important;
+}
+
+.col-md-3.EditBarEmptyPane {
+    width: 25% !important;
+}
+
+.col-md-4.EditBarEmptyPane {
+    width: 33.33333333% !important;
+}
+
+.col-md-5.EditBarEmptyPane {
+    width: 41.66666667% !important;
+}
+
+.col-md-6.EditBarEmptyPane {
+    width: 50% !important;
+}
+
+.col-md-7.EditBarEmptyPane {
+    width: 58.33333333% !important;
+}
+
+.col-md-8.EditBarEmptyPane {
+    width: 66.66666667% !important;
+}
+
+.col-md-9.EditBarEmptyPane {
+    width: 75% !important;
 }
