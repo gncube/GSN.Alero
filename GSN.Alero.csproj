@@ -336,7 +336,6 @@
     <Content Include="assets\plugins\font-awesome\4.7.0\scss\_variables.scss" />
     <Content Include="assets\plugins\parallax-slider\js\jquery.cslider.min.js.map" />
     <Content Include="assets\plugins\parallax-slider\js\modernizr.min.js.map" />
-    <Content Include="GSN.AleroSkins.zip.manifest" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

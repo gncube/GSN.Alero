@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
   <packages>
-    <package name="GSN.Modules.GSN.Alero" type="Skin" version="00.00.01">
+    <package name="GSN.Modules.GSN.Alero" type="Skin" version="09.02.01">
       <friendlyName>GSN.Alero</friendlyName>
       <description>A responsive DNN skin using Bootstrap 3. Requires installation via the Host/Extensions page.</description>
       <owner>
@@ -49,7 +49,7 @@
         </component>
       </components>
     </package>
-    <package name="GSN.Modules.Containers.GSN.Alero" type="Container" version="00.00.01">
+    <package name="GSN.Modules.Containers.GSN.Alero" type="Container" version="09.02.01">
       <friendlyName>GSN.Alero</friendlyName>
       <description>Containers for the GSN.Alero Skin package.</description>
       <owner>
