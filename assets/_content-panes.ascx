@@ -1,4 +1,4 @@
-﻿<div runat="server" id="TopAPane"></div>
+﻿<div class="col-md-12"  runat="server" id="TopAPane"></div>
 
 <div class="container">
     <div class="row dnnpane"><div class="col-md-12" runat="server" id="TopBPane"></div></div>
@@ -60,7 +60,7 @@
     </div>
 </div>
 
-<div runat="server" id="Full_ScreenB_Pane"></div>
+<div class="col-md-12" runat="server" id="Full_ScreenB_Pane"></div>
 
 <div class="container">
     <div class="row dnnpane">
@@ -97,4 +97,4 @@
     <div class="row dnnpane"><div class="col-md-12" runat="server" id="Bottom_Pane"></div></div>
 </div>
 
-<div runat="server" id="Full_Bottom_Pane"></div>
+<div class="col-md-12" runat="server" id="Full_Bottom_Pane"></div>
