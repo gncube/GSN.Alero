@@ -66,16 +66,8 @@
         <!-- Intro Section -->
         <div id="ContentPane" class="container" runat="server"></div>
 
-        <div class="container">
-            <div id="LeftPane" class="col-md-9" runat="server" />
-            <div id="RightPane" class="col-md-3" runat="server" />
-        </div>
-        <div class="container">
-            <div class="col-md-3" id="LeftPaneNarrow" runat="server" />
-            <div class="col-md-9" id="RightPaneWide" runat="server" />
-        </div>
-
-        <div id="FullPane" runat="server"></div>
+       <!--#include file="assets/_content-panes.ascx"-->
+       
     </div>
 
     <!-- Footer Section -->
