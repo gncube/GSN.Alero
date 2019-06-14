@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("GSN.Alero")]
-[assembly: AssemblyCopyright("GSN Copyright © 2018")]
+[assembly: AssemblyCopyright("GSN Copyright © 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,5 +30,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("09.02.01.*")]
-[assembly: AssemblyFileVersion("09.02.01.*")]
+[assembly: AssemblyVersion("09.02.02.*")]
+[assembly: AssemblyFileVersion("09.02.02.*")]

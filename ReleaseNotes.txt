@@ -12,4 +12,6 @@
 	<ul>
 			<li>None, first release</li>
 	</ul>
+	<p>Changed UserController.GetUserById(PortalSettings.PortalId, PortalSettings.AdministratorId) to
+                            UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True)</p>
 </div>
