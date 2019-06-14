@@ -50,9 +50,7 @@
                         <h2>Contact us</h2>
                     </div>
                     <ul class="list-unstyled contacts">
-                       <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.PostalCode)) Then %>
-
-                        <% Else %>
+        
                             <li>
                                 <i class="radius-3x fa fa-map-marker margin-bottom-41"></i>
 
@@ -65,29 +63,23 @@
                                 <br />
                                 <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Country%>
                             </li>
-                        <% End If %>
+
                         <li>
                             <i class="radius-3x fa fa-globe"></i>
                             <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Email%>
                             
                         </li>
-                     <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Telephone)) Then %>
 
-                        <% Else %>
                         <li>
                             <i class="radius-3x fa fa-phone"></i>
                             <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Telephone%>
                             </li>
-                     <% End If %>
 
-                     <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Cell)) Then %>
-
-                        <% Else %>
                         <li>
                             <i class="radius-3x fa fa-mobile"></i>
                             <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.Cell%>
                         </li>
-                    <% End If %>
+
 
                     </ul>
                 </div>
@@ -115,114 +107,72 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline dark-social pull-right space-bottom-0">
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Facebook"))) Then %>
 
-                        <% Else %>
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Facebook" href=" <%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Facebook") %> ">
                                 <i class="fa fa-facebook"></i>
                             </a>
                         </li>
-                    <% End If %>
 
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Twitter"))) Then %>
-
-                        <% Else %>
 
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Twitter" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Twitter") %>  ">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
-                    <% End If %>
 
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("LinkedIn"))) Then %>
-
-                        <% Else %>
 
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="LinkedIn" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("LinkedIn") %>  ">
                                 <i class="fa fa-linkedin"></i>
                             </a>
                         </li>
-                    <% End If %>
 
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Google+"))) Then %>
-
-                        <% Else %>
 
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Google Plus" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Google+") %>  ">
                                 <i class="fa fa-google-plus"></i>
                             </a>
                         </li>
-                    <% End If %>
 
-                     <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Vine"))) Then %>
-
-                        <% Else %>
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Vine" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Vine") %> ">
                                 <i class="fa fa-vine"></i>
                             </a>
                         </li>
 
-                     <% End If %>
 
-
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Skype"))) Then %>
-
-                        <% Else %>
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Skype" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Skype") %> ">
                                 <i class="fa fa-skype"></i>
                             </a>
                         </li>
 
-                     <% End If %>
 
-                    
-                     <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Pinterest"))) Then %>
-
-                        <% Else %>
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Pinterest" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Pinterest") %> ">
                                 <i class="fa fa-pinterest"></i>
                             </a>
                         </li>
-                    <% End If %>
-
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Instagram"))) Then %>
-
-                        <% Else %>
+     
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Instagram" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Instagram") %> ">
                                 <i class="fa fa-instagram"></i>
                             </a>
                         </li>
-                    <% End If %>
 
-
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Tumblr"))) Then %>
-
-                        <% Else %>
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Tumblr" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Tumblr") %> ">
                                 <i class="fa fa-tumblr"></i>
                             </a>
                         </li>
-                    <% End If %>
 
-
-                    <% If  (string.IsNullOrEmpty(UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Youtube"))) Then %>
-
-                        <% Else %>
                         <li>
                             <a data-placement="top" data-toggle="tooltip" class="tooltips" data-original-title="Youtube" href="<%=UserController.GetUser(PortalSettings.PortalId, PortalSettings.AdministratorId, True).Profile.GetPropertyValue("Youtube") %> ">
                                 <i class="fa fa-youtube"></i>
                             </a>
                         </li>
-                    <% End If %>
+
 
                     </ul>
                 </div>
